@@ -3,10 +3,6 @@ class StaticPagesController < ApplicationController
   p
   end
 
-  def greet
-    @user = User.first_name
-    puts "Bienvenue sur notre page #{@first_name}"
-  end
 
   def contact
  puts params
